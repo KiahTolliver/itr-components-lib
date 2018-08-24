@@ -7,7 +7,7 @@
     "build": "docz build"
   },
   "dependencies": {
-    "@itreverie/itr-components-basics": "0.0.2",
+    "@itreverie/itr-components-basics": "0.0.4",
     "classnames": "^2.2.6",
     "docz": "^0.10.3",
     "docz-core": "^0.10.3",

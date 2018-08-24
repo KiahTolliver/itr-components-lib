@@ -4,7 +4,7 @@ menu: Actions
 ---
 
 import { Playground, PropsTable } from 'docz'
-import { Button } from './Button'
+import { Button } from '@itreverie/itr-components-basics'
 
 # Button
 
@@ -15,26 +15,7 @@ import { Button } from './Button'
 ## Basic usage
 
 <Playground>
-  <Button>Some message</Button>
+  <Button>Hello</Button>
 </Playground>
 
-## Using different kinds
 
-<Playground>
-  <Button kind="info">Some message</Button>
-  <Button kind="positive">Some message</Button>
-  <Button kind="negative">Some message</Button>
-  <Button kind="warning">Some message</Button>
-</Playground>
-
-## Use with children as a function
-
-<Playground>
-  {() => {
-    const message = 'Hello world'
-
-    return (
-      <Button>{message}</Button>
-    )
-  }}
-</Playground>

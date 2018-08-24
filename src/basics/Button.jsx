@@ -1,23 +1,56 @@
-import React, { Fragment } from 'react'
-import cx from 'classnames'
-import t from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
 
-import styles from './Button.module.less'
 
-export const Button = ({ children, kind }) => (
-  <div
-    className={cx(styles.alert, {
-      [styles[kind]]: true,
-    })}
-  >
-    {children}
-  </div>
-)
+const propTypes = {
+  active: PropTypes.bool,
+  block: PropTypes.bool,
+  children: PropTypes.node,
+  onClick: PropTypes.func,
+  disabled: PropTypes.bool,
+  small: PropTypes.bool,
+  wrapText: PropTypes.bool,
+  rounded: PropTypes.bool,
+  round: PropTypes.bool,
+  noBorder: PropTypes.bool,
+};
 
-Button.propTypes = {
-  kind: t.oneOf(['info', 'positive', 'negative', 'warning']),
+const defaultProps = {
+  active: false,
+  block: false,
+  children: null,
+  onClick: () => {},
+  disabled: false,
+  small: false,
+  wrapText: false,
+  rounded: false,
+  round: false,
+  noBorder: false,
+};
+
+function Button({
+  active,
+  block,
+  children,
+  onClick,
+  disabled,
+  small,
+  round,
+  rounded,
+  noBorder,
+  wrapText,
+}) {
+  return (
+    <button
+      aria-disabled={disabled}
+      disabled={disabled}
+      onClick={onClick}>
+        {children}
+    </button>
+  );
 }
 
-Button.defaultProps = {
-  kind: 'info',
-}
+Button.propTypes = propTypes;
+Button.defaultProps = defaultProps;
+
+export default Button;
