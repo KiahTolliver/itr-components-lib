@@ -33,14 +33,31 @@
         }
       ]
     },
-    "src/Typography/Header.mdx": {
+    "src/Typography/index.mdx": {
+      "name": "Typography",
+      "route": "/src-typography-index",
+      "order": 0,
+      "id": "45d097b0864c2adcb23993a4a29cfcb7",
+      "filepath": "src/Typography/index.mdx",
+      "link": null,
+      "slug": "src-typography-index",
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "typography",
+          "value": "Typography"
+        }
+      ]
+    },
+    "src/Typographyt/Header.mdx": {
       "name": "Header",
       "menu": "Typography",
-      "id": "3a70608509f87a9e27f449d0e4e5abac",
-      "filepath": "src/Typography/Header.mdx",
+      "id": "36e85290714ad1f4562ea4536d2b348f",
+      "filepath": "src/Typographyt/Header.mdx",
       "link": null,
-      "slug": "src-typography-header",
-      "route": "/src-typography-header",
+      "slug": "src-typographyt-header",
+      "route": "/src-typographyt-header",
       "order": 0,
       "headings": [
         {
