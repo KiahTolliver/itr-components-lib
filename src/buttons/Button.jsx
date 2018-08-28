@@ -1,48 +1,29 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
+import './Button.module.less'
 
 const propTypes = {
   active: PropTypes.bool,
-  block: PropTypes.bool,
   children: PropTypes.node,
   onClick: PropTypes.func,
-  disabled: PropTypes.bool,
-  small: PropTypes.bool,
-  wrapText: PropTypes.bool,
-  rounded: PropTypes.bool,
-  round: PropTypes.bool,
-  noBorder: PropTypes.bool,
+  disabled: PropTypes.bool
 };
 
 const defaultProps = {
-  active: false,
-  block: false,
+  active: true,
   children: null,
   onClick: () => {},
   disabled: false,
-  small: false,
-  wrapText: false,
-  rounded: false,
-  round: false,
-  noBorder: false,
 };
 
 function Button({
-  active,
-  block,
   children,
   onClick,
   disabled,
-  small,
-  round,
-  rounded,
-  noBorder,
-  wrapText,
 }) {
   return (
     <button
-      aria-disabled={disabled}
+    class="primary" 
       disabled={disabled}
       onClick={onClick}>
         {children}
