@@ -35,16 +35,16 @@
     },
     "src/Typography/index.mdx": {
       "name": "Typography",
-      "route": "/src-typography-index",
-      "order": 0,
       "id": "45d097b0864c2adcb23993a4a29cfcb7",
       "filepath": "src/Typography/index.mdx",
       "link": null,
       "slug": "src-typography-index",
+      "route": "/src-typography-index",
+      "order": 0,
       "menu": null,
       "headings": [
         {
-          "depth": 1,
+          "depth": 2,
           "slug": "typography",
           "value": "Typography"
         }
