@@ -33,6 +33,23 @@
         }
       ]
     },
+    "src/Typography/Header.mdx": {
+      "name": "Header",
+      "menu": "Typography",
+      "id": "3a70608509f87a9e27f449d0e4e5abac",
+      "filepath": "src/Typography/Header.mdx",
+      "link": null,
+      "slug": "src-typography-header",
+      "route": "/src-typography-header",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic usage"
+        }
+      ]
+    },
     "src/basics/Button.mdx": {
       "name": "Button",
       "menu": "Actions",
