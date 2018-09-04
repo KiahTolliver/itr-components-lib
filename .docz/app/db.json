@@ -60,6 +60,50 @@
         }
       ]
     },
+    "src/forms/DropdownList.mdx": {
+      "name": "Dropdown List",
+      "menu": "Forms",
+      "id": "442b7b2e43f98b9611c77ad0248ad9f4",
+      "filepath": "src/forms/DropdownList.mdx",
+      "link": null,
+      "slug": "src-forms-dropdown-list",
+      "route": "/src-forms-dropdown-list",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic usage"
+        }
+      ]
+    },
+    "src/forms/TextArea.mdx": {
+      "name": "TextArea",
+      "menu": "Forms",
+      "id": "144a34e2d934ad1163f664c2bc9b82d5",
+      "filepath": "src/forms/TextArea.mdx",
+      "link": null,
+      "slug": "src-forms-text-area",
+      "route": "/src-forms-text-area",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "text-area",
+          "value": "Text area"
+        },
+        {
+          "depth": 2,
+          "slug": "properties",
+          "value": "Properties"
+        },
+        {
+          "depth": 2,
+          "slug": "standard-text-areas",
+          "value": "Standard text areas"
+        }
+      ]
+    },
     "src/forms/TextField.mdx": {
       "name": "Text Field",
       "menu": "Forms",
@@ -74,6 +118,33 @@
           "depth": 2,
           "slug": "basic-usage",
           "value": "Basic usage"
+        }
+      ]
+    },
+    "src/typography/typography.mdx": {
+      "name": "Typography",
+      "id": "0a5b9894acdbbcd4d3da8a97cc30d898",
+      "filepath": "src/typography/typography.mdx",
+      "link": null,
+      "slug": "src-typography-typography",
+      "route": "/src-typography-typography",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 2,
+          "slug": "typography",
+          "value": "Typography"
+        },
+        {
+          "depth": 3,
+          "slug": "desktop",
+          "value": "Desktop"
+        },
+        {
+          "depth": 3,
+          "slug": "mobile",
+          "value": "Mobile"
         }
       ]
     },
@@ -111,33 +182,6 @@
           "depth": 2,
           "slug": "use-with-children-as-a-function",
           "value": "Use with children as a function"
-        }
-      ]
-    },
-    "src/typography/typography.mdx": {
-      "name": "Typography",
-      "id": "0a5b9894acdbbcd4d3da8a97cc30d898",
-      "filepath": "src/typography/typography.mdx",
-      "link": null,
-      "slug": "src-typography-typography",
-      "route": "/src-typography-typography",
-      "order": 0,
-      "menu": null,
-      "headings": [
-        {
-          "depth": 2,
-          "slug": "typography",
-          "value": "Typography"
-        },
-        {
-          "depth": 3,
-          "slug": "desktop",
-          "value": "Desktop"
-        },
-        {
-          "depth": 3,
-          "slug": "mobile",
-          "value": "Mobile"
         }
       ]
     }
